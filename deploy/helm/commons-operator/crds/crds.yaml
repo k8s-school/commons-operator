@@ -8,15 +8,12 @@ metadata:
 spec:
   group: authentication.stackable.tech
   names:
-    categories: []
     kind: AuthenticationClass
     plural: authenticationclasses
-    shortNames: []
     singular: authenticationclass
   scope: Cluster
   versions:
-    - additionalPrinterColumns: []
-      name: v1alpha1
+    - name: v1alpha1
       schema:
         openAPIV3Schema:
           description: Auto-generated derived type for AuthenticationClassSpec via `CustomResource`
@@ -299,15 +296,12 @@ metadata:
 spec:
   group: s3.stackable.tech
   names:
-    categories: []
     kind: S3Connection
     plural: s3connections
-    shortNames: []
     singular: s3connection
   scope: Namespaced
   versions:
-    - additionalPrinterColumns: []
-      name: v1alpha1
+    - name: v1alpha1
       schema:
         openAPIV3Schema:
           description: Auto-generated derived type for S3ConnectionSpec via `CustomResource`
@@ -426,15 +420,12 @@ metadata:
 spec:
   group: s3.stackable.tech
   names:
-    categories: []
     kind: S3Bucket
     plural: s3buckets
-    shortNames: []
     singular: s3bucket
   scope: Namespaced
   versions:
-    - additionalPrinterColumns: []
-      name: v1alpha1
+    - name: v1alpha1
       schema:
         openAPIV3Schema:
           description: Auto-generated derived type for S3BucketSpec via `CustomResource`
